@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel+Decorative&family=Covered+By+Your+Grace&family=Gloria+Hallelujah&family=Henny+Penny&family=Kumar+One+Outline&family=Pacifico&family=Petit+Formal+Script&family=Reenie+Beanie&family=Rye&family=Satisfy&display=swap');
+
+/* Import above is the Fonts that might be used in this Project!
+font-family: 'Alex Brush', cursive;
+font-family: 'Cinzel Decorative', serif;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Gloria Hallelujah', cursive; -->
+font-family: 'Henny Penny', system-ui;
+font-family: 'Kumar One Outline', system-ui;
+font-family: 'Pacifico', cursive;
+font-family: 'Petit Formal Script', cursive;
+font-family: 'Reenie Beanie', cursive; -->
+font-family: 'Rye', serif; -->
+font-family: 'Satisfy', cursive;
+*/
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #885fff,
+    #5215fc,
+    #410ed3,
+    #280886
+  );
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Rye', serif;
+}
+
+.imgchange {
+  padding-bottom: 22px;
+  width:  350px;
+  height:  350px;
+  object-fit: cover;
+
+}
+
+.songP {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.songP2{
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+.Songlinkbutton {
+  width: 9em;
+ height: 3em;
+ border-radius: 30em;
+ font-size: 15px;
+ font-family: inherit;
+ border: none;
+ position: relative;
+ overflow: hidden;
+ z-index: 1;
+ box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.Songlinkbutton::before{
+content: '';
+ width: 0;
+ height: 3em;
+ border-radius: 30em;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-image: linear-gradient(to right, #0797fd, #f3cfff);
+ transition: .4s ease;
+ display: block;
+ z-index: -1;
+}
+
+.Songlinkbutton:hover::before{
+  width: 15rem;
+}
+
+/* The code is the styling of the button of the video links */
+
+.display {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 25px;
+}
+
+.display > div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* .display-image img {
+  display: block;
+  height: 150px;
+  width: auto;
+  padding-bottom: 22px;
+}
+
+.display-song p {
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  padding-bottom: 40%;
+  padding-top: 40%;
+}
+
+.display-artist p {
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+}
+
+.display-link a {
+  display: block;
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+} */
+
+
+
+.form {
+  width: 75%;
+   margin: 0 auto 20px auto; 
+  font-size: 18px;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: black;
+}
+
+body {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+  
+/* The code for the styling for the User Input */
+input{
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  caret-color:#d2b2f8;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding-left: 20px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 13.4px;
+  
+}
+
+
+.image,.song-name,.artist,.song-link {
+  width: 210px;
+  height: 50px;
+  background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+/* The end of the Styling for the User Input information */
+
+
+               
